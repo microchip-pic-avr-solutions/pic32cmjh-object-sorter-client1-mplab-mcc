@@ -1,0 +1,159 @@
+configVersion: 1.0.0
+componentName: mainBoard_PIC32CMJH01_CURIOSITY_NANO_BASE
+coreVersion: 5.9.0
+device: PIC32CM5164JH01048
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: mainBoard_PIC32CMJH01_CURIOSITY_NANO_BASE
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: shd
+  type: package
+  version: v1.3.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: mainBoard_PIC32CMJH01_CURIOSITY_NANO_BASE
+          x: '146'
+          y: '69'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    SHD_CHECK_COLLISIONS:
+      attributes:
+        id: SHD_CHECK_COLLISIONS
+      children:
+      - children:
+        - attributes:
+            id: label
+          children:
+          - type: Value
+            value: SHD_MAINBOARD_CONNECTOR_Curiosity-Nano-Base-mikroBUS-2_PWM
+          type: String
+        type: Attributes
+      - children:
+        - attributes:
+            id: mainBoard_PIC32CMJH01_CURIOSITY_NANO_BASE
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SHD_MAINBOARD_CONNECTOR_Curiosity-Nano-Base-mikroBUS-1_INT:
+      attributes:
+        id: SHD_MAINBOARD_CONNECTOR_Curiosity-Nano-Base-mikroBUS-1_INT
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    SHD_MAINBOARD_CONNECTOR_Curiosity-Nano-Base-mikroBUS-1_RST:
+      attributes:
+        id: SHD_MAINBOARD_CONNECTOR_Curiosity-Nano-Base-mikroBUS-1_RST
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    SHD_MAINBOARD_CONNECTOR_Curiosity-Nano-Base-mikroBUS-1_SPI:
+      attributes:
+        id: SHD_MAINBOARD_CONNECTOR_Curiosity-Nano-Base-mikroBUS-1_SPI
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    SHD_MAINBOARD_INTERFACE_0_OPT_0:
+      attributes:
+        id: SHD_MAINBOARD_INTERFACE_0_OPT_0
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    SHD_MAINBOARD_INTERFACE_0_OPT_1:
+      attributes:
+        id: SHD_MAINBOARD_INTERFACE_0_OPT_1
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    SHD_MAINBOARD_INTERFACE_0_OPT_2:
+      attributes:
+        id: SHD_MAINBOARD_INTERFACE_0_OPT_2
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: Boolean
+    SHD_MAINBOARD_INTERFACE_4_OPT_0:
+      attributes:
+        id: SHD_MAINBOARD_INTERFACE_4_OPT_0
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    SHD_MAINBOARD_INTERFACE_4_OPT_1:
+      attributes:
+        id: SHD_MAINBOARD_INTERFACE_4_OPT_1
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: Boolean
+    SHD_MAINBOARD_CONNECTOR_Curiosity-Nano-Base-Xplain-Pro-EXT1_PWM PLUS:
+      attributes:
+        id: SHD_MAINBOARD_CONNECTOR_Curiosity-Nano-Base-Xplain-Pro-EXT1_PWM PLUS
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: Boolean
+    SHD_MAINBOARD_CONNECTOR_Curiosity-Nano-Base-mikroBUS-2_PWM:
+      attributes:
+        id: SHD_MAINBOARD_CONNECTOR_Curiosity-Nano-Base-mikroBUS-2_PWM
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+  userData: {}

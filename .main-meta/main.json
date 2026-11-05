@@ -1,0 +1,90 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu.mplabx.project.pic32cmjh-object-sorter-client1-mplab-mcc",
+        "version": "1.0.0",
+        "displayName": "Intelligent Object Sorting Conveyor - Client 1 Node",
+        "projectName": "pic32cmjh-object-sorter-client1-mplab-mcc",
+        "shortDescription": "This application demonstrates Client Node 1 as a servo gate controller in an intelligent object sorting conveyor system using 10BASE-T1S Ethernet for communication with the Host node.",
+        "ide": [
+            {
+                "name": "MPLAB X",
+                "semverRange": ">=6.35.0"
+            }
+        ],
+        "compiler": [
+            {
+                "name": "XC32",
+                "semverRange": "^6.0.0"
+            }
+        ],
+        "dfp": [
+            {
+                "name": "PIC32CM-JH DFP",
+                "semverRange": "^1.5.236"
+            }
+        ],
+        "configurator": {
+            "name": "MCC",
+            "semverRange": ">=5.7.0"
+        },
+        "device": [
+            {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.contentRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "category": "com.microchip.device",
+                    "name": "PIC32CM5164JH01048",
+                    "versionRange": "*"
+                }
+            },
+            {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.contentRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "category": "com.microchip.device",
+                    "name": "LAN8651",
+                    "versionRange": "*"
+                }
+            }
+        ],
+        "author": "Hariharan Arumugam",
+        "peripherals": [
+            "SERCOM",
+            "TCC",
+            "SPI",
+            "UART",
+            "DMAC",
+            "EVSYS",
+            "NVMCTRL"
+        ],
+        "keywords": [
+            "10BASE-T1S",
+            "Wired Communication",
+            "Object Sorting",
+            "Conveyor",
+            "Servo Motor",
+            "Gate Control",
+            "TCP/IP",
+            "MPLABX",
+            "XC32",
+            "MCC",
+            "Harmony"
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
